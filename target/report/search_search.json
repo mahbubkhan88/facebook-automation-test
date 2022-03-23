@@ -1,0 +1,81 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-03-10T10:51:36.037Z",
+    "line" : 12,
+    "name" : "Facebook login with phone no and password",
+    "description" : "",
+    "id" : "facebook-login;facebook-login-with-phone-no-and-password;;2",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 1279598900,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "Open google chrome",
+      "match" : {
+        "location" : "StepDefinitions.LoginSteps.open_google_chrome()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1549863100,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "Browse facebook.com",
+      "match" : {
+        "location" : "StepDefinitions.LoginSteps.browse_facebook_com()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 360805800,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User entries 01810688491 and Taseen@6148",
+      "match" : {
+        "arguments" : [ {
+          "val" : "01810688491",
+          "offset" : 13
+        }, {
+          "val" : "Taseen@6148",
+          "offset" : 29
+        } ],
+        "location" : "StepDefinitions.LoginSteps.user_entries_and_taseen(java.lang.String,java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 27885800,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "Press login button",
+      "match" : {
+        "location" : "StepDefinitions.LoginSteps.press_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 5235290500,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "Facebook homepage will display",
+      "match" : {
+        "location" : "StepDefinitions.LoginSteps.facebook_homepage_will_display()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Facebook login",
+  "description" : "",
+  "id" : "facebook-login",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/login.feature",
+  "tags" : [ ]
+} ]
